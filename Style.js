@@ -40,7 +40,7 @@ module.exports = StyleSheet.create({
     databox:{
       height: 105,
       width:135,
-      backgroundColor: 'rgba(0,0,0, 0.2)',
+      backgroundColor: 'rgba(0,0,0, 0.6)',
       margin:33,
       alignItems:'center',
       justifyContent:'center',

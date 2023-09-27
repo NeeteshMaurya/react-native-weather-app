@@ -1,4 +1,4 @@
-import {Text, View,ActivityIndicator } from 'react-native';
+import {Text, View,ActivityIndicator,StatusBar } from 'react-native';
 import React, { useState, useEffect} from 'react'
 import { SafeAreaView } from 'react-native';
 import Home from './Screens/Home';
@@ -81,6 +81,7 @@ export default function App() {
       start={{ x: 0, y:0.3 }}
       end={{ x: 0, y: 1 }}
       style={{height:'100%'}}>
+        <StatusBar barStyle='light-content' translucent={true} backgroundColor={'transparent'} />
         <Home weatherData={weatherData} fetchWeatherData={fetchWeatherData} />
       </LinearGradient>
     // </SafeAreaView>
